@@ -209,7 +209,7 @@ YTD Sales = TOTALYTD(SUM(sales[total_amount]), DimDate[FullDate])
 
 * **Monthly Sales Trend**
 
-[!sales performance]()
+[!sales performance](sales performance insights.png)
 ---
 
 ## Product Performance
