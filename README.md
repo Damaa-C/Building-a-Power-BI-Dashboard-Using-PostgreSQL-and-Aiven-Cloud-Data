@@ -26,22 +26,31 @@ Steps:
 
 1. Open **Power BI Desktop**
 2. Click **Get Data**
+
    [!get data](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/getdata.png)
+   
 3. Select **PostgreSQL Database**
    [!postgresget](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
-4. Enter the server connection:
+   
+   4. Enter the server connection:
 
 ```
 localhost:5432
 ```
 
 5. Enter the database name
+   
    [!enterdb](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/enter%20postgresdbdetails.png)
-7. Provide PostgreSQL credentials
+   
+6. Provide PostgreSQL credentials
+   
    [!password](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/postgresdbuserpassword.png)
-9. Select the tables to load (customers, products, sales, inventory)
+   
+7. Select the tables to load (customers, products, sales, inventory)
 
 [!load](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/previewofpostgresdbbeforechoosing.png)
+
+
 ---
 
 ## Connecting to Aiven Cloud PostgreSQL
@@ -84,6 +93,7 @@ host:port
 [!passwd](usernamepasswordaiven.png)
 
 [!chooose](choosingdbtablesaiven.png)
+
 
 ### When SSL Mode is Not Available
 
@@ -135,6 +145,7 @@ Initially, the model contained four PostgreSQL tables:
 * `inventory`
 
 The **sales table acts as the fact table**, containing transaction records.
+
 [!model before](modelbeforedate.png)
 
 Relationships:
@@ -185,13 +196,17 @@ The final data model follows a **Star Schema**.
 
 [!schema](modelafterdate.png)
 
+
 ---
 
 # Dashboard and Key Performance Indicators
 
 After preparing the data model, interactive dashboards were created in Power BI.
 ## KPI Product & sales performance analysis
+
+
 [!KPI](productdashboard.png)
+
 
 ## Sales Performance
 
@@ -212,6 +227,8 @@ YTD Sales = TOTALYTD(SUM(sales[total_amount]), DimDate[FullDate])
 * **Monthly Sales Trend**
 
 [!sales performance](salesperformanceinsights.png) 
+
+
 ---
 
 ## Product Performance
@@ -230,6 +247,8 @@ Visualized using a bar chart ranking products by quantity sold.
 
 [!productinsights](productinsight.png)
 
+
+
 ---
 
 ## Customer Insights
@@ -247,6 +266,8 @@ Total Customers = DISTINCTCOUNT(customers[customer_id])
 Customers ranked by total sales value.
 
 [!sutomers insights](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/customer%20insights.png) 
+
+
 ---
 
 ## Inventory Insights
@@ -264,6 +285,8 @@ Stock Remaining = SUM(inventory[stock_quantity]) - SUM(sales[quantity_sold])
 Used to identify products that require restocking.
 
 [!inventoryinsights](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/inventory.png)
+
+
 ---
 
 # Conclusion
