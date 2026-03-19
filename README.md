@@ -27,10 +27,10 @@ Steps:
 1. Open **Power BI Desktop**
 2. Click **Get Data**
 
-   [!getdata](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/getdata.png)
+   ![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/getdata.png)
    
 3. Select **PostgreSQL Database**
-   [!postgres database](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
+   ![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
    
    4. Enter the server connection:
 
@@ -40,15 +40,15 @@ localhost:5432
 
 5. Enter the database name
    
-   [!postgres host](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/enter%20postgresdbdetails.png)
+   ![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/enter%20postgresdbdetails.png)
    
 6. Provide PostgreSQL credentials
    
-   [! postgres user-password](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/postgresdbuserpassword.png)
+   ![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/postgresdbuserpassword.png)
    
 7. Select the tables to load (customers, products, sales, inventory)
 
-[postgres tables](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/previewofpostgresdbbeforechoosing.png)
+![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/previewofpostgresdbbeforechoosing.png)
 
 
 ---
@@ -86,13 +86,13 @@ host:port
 
 4. Enter the database credentials and load the required tables.
 
-[!Open postgres db](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
+![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
 
-[!aiven host-db](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/choosedbaivenlocalhost.png)
+![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/choosedbaivenlocalhost.png)
 
-[!Aiven user-passwd](usernamepasswordaiven.png)
+![Image description](usernamepasswordaiven.png)
 
-[!Aiven db tables](choosingdbtablesaiven.png)
+![Image description](choosingdbtablesaiven.png)
 
 
 ### When SSL Mode is Not Available
@@ -146,7 +146,7 @@ Initially, the model contained four PostgreSQL tables:
 
 The **sales table acts as the fact table**, containing transaction records.
 
-[!model before](modelbeforedate.png)
+![Image description](modelbeforedate.png)
 
 Relationships:
 
@@ -166,7 +166,7 @@ Relationship added:
 sales.sale_date → DimDate.FullDate
 ```
 
-[!schema](relationshiptable.png)
+![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/relationship%20table.png)
 
 This table enables filtering by:
 
@@ -194,7 +194,7 @@ The final data model follows a **Star Schema**.
 * inventory
 * DimDate
 
-[!schema](modelafterdate.png)
+![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/modelafter%20date.png)
 
 
 ---
@@ -205,7 +205,7 @@ After preparing the data model, interactive dashboards were created in Power BI.
 ## KPI Product & sales performance analysis
 
 
-[!KPI](productdashboard.png)
+![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/product%20dashboard.png)
 
 
 ## Sales Performance
@@ -226,7 +226,7 @@ YTD Sales = TOTALYTD(SUM(sales[total_amount]), DimDate[FullDate])
 
 * **Monthly Sales Trend**
 
-[!sales performance](salesperformanceinsights.png) 
+![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/sales%20performance%20insights.png)
 
 
 ---
@@ -245,7 +245,7 @@ Total Quantity Sold = SUM(sales[quantity_sold])
 
 Visualized using a bar chart ranking products by quantity sold.
 
-[!productinsights](productinsight.png)
+![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/product%20insight.png)
 
 
 
@@ -265,7 +265,7 @@ Total Customers = DISTINCTCOUNT(customers[customer_id])
 
 Customers ranked by total sales value.
 
-[!sutomers insights](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/customer%20insights.png) 
+![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/customer%20insights.png) 
 
 
 ---
@@ -284,7 +284,7 @@ Stock Remaining = SUM(inventory[stock_quantity]) - SUM(sales[quantity_sold])
 
 Used to identify products that require restocking.
 
-[!inventoryinsights](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/inventory.png)
+![Image description](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/inventory.png)
 
 
 ---
