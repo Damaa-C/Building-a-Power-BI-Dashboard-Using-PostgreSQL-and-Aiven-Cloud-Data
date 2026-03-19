@@ -79,7 +79,7 @@ host:port
 
 [!pgsql](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
 [!aivendb](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/choosedbaivenlocalhost.png)
-[!passwd]()
+[!passwd](usernamepasswordaiven.png)
 [!chooose]()
 ### When SSL Mode is Not Available
 
