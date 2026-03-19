@@ -77,7 +77,7 @@ host:port
 
 4. Enter the database credentials and load the required tables.
 
-[!pgsql]()
+[!pgsql](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
 [!aivendb]()
 [!passwd]()
 [!chooose]()
