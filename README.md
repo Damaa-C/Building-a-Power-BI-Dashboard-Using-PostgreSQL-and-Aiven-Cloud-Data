@@ -261,8 +261,7 @@ Stock Remaining = SUM(inventory[stock_quantity]) - SUM(sales[quantity_sold])
 
 Used to identify products that require restocking.
 
-📷 **Screenshot:** Inventory insights dashboard.
-
+[!inventoryinsights](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/inventory.png)
 ---
 
 # Conclusion
