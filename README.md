@@ -155,7 +155,7 @@ Relationship added:
 sales.sale_date → DimDate.FullDate
 ```
 
-[!schema](relationship table.png)
+[!schema](relationshiptable.png)
 
 This table enables filtering by:
 
@@ -183,7 +183,7 @@ The final data model follows a **Star Schema**.
 * inventory
 * DimDate
 
-[!schema](modelafter date.png)
+[!schema](modelafterdate.png)
 
 ---
 
@@ -209,7 +209,7 @@ YTD Sales = TOTALYTD(SUM(sales[total_amount]), DimDate[FullDate])
 
 * **Monthly Sales Trend**
 
-[!sales performance](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/product%20insight.png) 
+[!sales performance]
 ---
 
 ## Product Performance
