@@ -36,7 +36,7 @@ localhost:5432
 ```
 
 5. Enter the database name
-   [!enterdb]()
+   [!enterdb](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/enter%20postgresdbdetails.png)
 7. Provide PostgreSQL credentials
    [!password]()
 9. Select the tables to load (customers, products, sales, inventory)
