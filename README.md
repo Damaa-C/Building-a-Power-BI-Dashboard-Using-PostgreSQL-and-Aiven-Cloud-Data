@@ -155,6 +155,8 @@ Relationship added:
 sales.sale_date → DimDate.FullDate
 ```
 
+[!schema]()
+
 This table enables filtering by:
 
 * Year
@@ -164,7 +166,6 @@ This table enables filtering by:
 
 It also supports time-based KPI calculations.
 
-[!schema]()
 ---
 
 ## Schema Type
@@ -182,7 +183,7 @@ The final data model follows a **Star Schema**.
 * inventory
 * DimDate
 
-📷 **Screenshot:** Final model view showing the complete schema.
+[!schema](modelafter date.png)
 
 ---
 
