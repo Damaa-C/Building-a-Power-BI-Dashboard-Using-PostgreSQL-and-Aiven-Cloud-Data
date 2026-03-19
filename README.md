@@ -135,15 +135,13 @@ Initially, the model contained four PostgreSQL tables:
 * `inventory`
 
 The **sales table acts as the fact table**, containing transaction records.
-[!model before]()
+[!model before](modelbeforedate.png)
 
 Relationships:
 
 * `sales.customer_id → customers.customer_id`
 * `sales.product_id → products.product_id`
 * `inventory.product_id → products.product_id`
-
-📷 **Screenshot:** Power BI Model View before adding the Date table.
 
 ---
 
@@ -166,8 +164,7 @@ This table enables filtering by:
 
 It also supports time-based KPI calculations.
 
-📷 **Screenshot:** Model View after adding the Date table.
-
+[!schema]()
 ---
 
 ## Schema Type
