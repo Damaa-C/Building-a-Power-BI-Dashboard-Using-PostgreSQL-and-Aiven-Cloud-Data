@@ -28,7 +28,7 @@ Steps:
 2. Click **Get Data**
    [!get data](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/getdata.png)
 3. Select **PostgreSQL Database**
-   [!postgresget]()
+   [!postgresget](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
 4. Enter the server connection:
 
 ```
@@ -36,8 +36,10 @@ localhost:5432
 ```
 
 5. Enter the database name
-6. Provide PostgreSQL credentials
-7. Select the tables to load (customers, products, sales, inventory)
+   [!enterdb]()
+7. Provide PostgreSQL credentials
+   [!password]()
+9. Select the tables to load (customers, products, sales, inventory)
 
 📷 **Screenshot:** PostgreSQL connection window in Power BI.
 
