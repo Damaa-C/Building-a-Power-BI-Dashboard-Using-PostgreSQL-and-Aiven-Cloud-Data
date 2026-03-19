@@ -26,7 +26,9 @@ Steps:
 
 1. Open **Power BI Desktop**
 2. Click **Get Data**
+   [!get data](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/getdata.png)
 3. Select **PostgreSQL Database**
+   [!postgresget]()
 4. Enter the server connection:
 
 ```
