@@ -155,7 +155,7 @@ Relationship added:
 sales.sale_date → DimDate.FullDate
 ```
 
-[!schema]()
+[!schema](relationship table.png)
 
 This table enables filtering by:
 
@@ -209,8 +209,7 @@ YTD Sales = TOTALYTD(SUM(sales[total_amount]), DimDate[FullDate])
 
 * **Monthly Sales Trend**
 
-📷 **Screenshot:** Sales performance dashboard.
-
+[!sales performance]()
 ---
 
 ## Product Performance
