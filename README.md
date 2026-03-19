@@ -209,7 +209,7 @@ YTD Sales = TOTALYTD(SUM(sales[total_amount]), DimDate[FullDate])
 
 * **Monthly Sales Trend**
 
-[!sales performance](sales performance insights.png)
+[!sales performance](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/product%20insight.png) 
 ---
 
 ## Product Performance
