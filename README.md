@@ -78,9 +78,13 @@ host:port
 4. Enter the database credentials and load the required tables.
 
 [!pgsql](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
+
 [!aivendb](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/choosedbaivenlocalhost.png)
+
 [!passwd](usernamepasswordaiven.png)
-[!chooose]()
+
+[!chooose](choosingdbtablesaiven.png)
+
 ### When SSL Mode is Not Available
 
 Some versions of Power BI do not display an SSL configuration option. In this case, a secure connection can be established using a **VPN or SSH tunnel**, allowing Power BI to connect through:
@@ -116,7 +120,6 @@ Typical transformations include:
 
 These steps ensure the dataset is consistent and ready for analysis.
 
-📷 **Screenshot:** Power Query Editor showing transformations.
 
 ---
 
@@ -132,6 +135,7 @@ Initially, the model contained four PostgreSQL tables:
 * `inventory`
 
 The **sales table acts as the fact table**, containing transaction records.
+[!model before]()
 
 Relationships:
 
