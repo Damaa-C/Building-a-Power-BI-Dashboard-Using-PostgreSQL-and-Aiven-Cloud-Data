@@ -190,6 +190,8 @@ The final data model follows a **Star Schema**.
 # Dashboard and Key Performance Indicators
 
 After preparing the data model, interactive dashboards were created in Power BI.
+## KPI Product & sales performance analysis
+[!KPI]()
 
 ## Sales Performance
 
@@ -209,7 +211,7 @@ YTD Sales = TOTALYTD(SUM(sales[total_amount]), DimDate[FullDate])
 
 * **Monthly Sales Trend**
 
-[!sales performance]
+[!sales performance](salesperformanceinsights.png) 
 ---
 
 ## Product Performance
@@ -226,7 +228,7 @@ Total Quantity Sold = SUM(sales[quantity_sold])
 
 Visualized using a bar chart ranking products by quantity sold.
 
-[!productinsights](product insight.png)
+[!productinsights](productinsight.png)
 
 ---
 
