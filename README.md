@@ -27,10 +27,10 @@ Steps:
 1. Open **Power BI Desktop**
 2. Click **Get Data**
 
-   [!get data](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/getdata.png)
+   [!getdata](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/getdata.png)
    
 3. Select **PostgreSQL Database**
-   [!postgresget](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
+   [!postgres database](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
    
    4. Enter the server connection:
 
@@ -40,15 +40,15 @@ localhost:5432
 
 5. Enter the database name
    
-   [!enterdb](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/enter%20postgresdbdetails.png)
+   [!postgres host](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/enter%20postgresdbdetails.png)
    
 6. Provide PostgreSQL credentials
    
-   [!password](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/postgresdbuserpassword.png)
+   [! postgres user-password](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/postgresdbuserpassword.png)
    
 7. Select the tables to load (customers, products, sales, inventory)
 
-[!load](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/previewofpostgresdbbeforechoosing.png)
+[postgres tables](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/previewofpostgresdbbeforechoosing.png)
 
 
 ---
@@ -86,13 +86,13 @@ host:port
 
 4. Enter the database credentials and load the required tables.
 
-[!pgsql](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
+[!Open postgres db](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
 
-[!aivendb](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/choosedbaivenlocalhost.png)
+[!aiven host-db](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/choosedbaivenlocalhost.png)
 
-[!passwd](usernamepasswordaiven.png)
+[!Aiven user-passwd](usernamepasswordaiven.png)
 
-[!chooose](choosingdbtablesaiven.png)
+[!Aiven db tables](choosingdbtablesaiven.png)
 
 
 ### When SSL Mode is Not Available
