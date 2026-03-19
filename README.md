@@ -78,7 +78,7 @@ host:port
 4. Enter the database credentials and load the required tables.
 
 [!pgsql](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/betterpostgresdbchoose.png)
-[!aivendb]()
+[!aivendb](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/choosedbaivenlocalhost.png)
 [!passwd]()
 [!chooose]()
 ### When SSL Mode is Not Available
