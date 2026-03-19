@@ -226,7 +226,7 @@ Total Quantity Sold = SUM(sales[quantity_sold])
 
 Visualized using a bar chart ranking products by quantity sold.
 
-📷 **Screenshot:** Product performance dashboard.
+[!productinsights](product insight.png)
 
 ---
 
