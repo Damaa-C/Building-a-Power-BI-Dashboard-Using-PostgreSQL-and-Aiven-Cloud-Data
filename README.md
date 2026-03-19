@@ -41,7 +41,7 @@ localhost:5432
    [!password](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/postgresdbuserpassword.png)
 9. Select the tables to load (customers, products, sales, inventory)
 
-[!load]()
+[!load](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/previewofpostgresdbbeforechoosing.png)
 ---
 
 ## Connecting to Aiven Cloud PostgreSQL
@@ -77,8 +77,10 @@ host:port
 
 4. Enter the database credentials and load the required tables.
 
-📷 **Screenshot:** Cloud PostgreSQL connection dialog.
-
+[!pgsql]()
+[!aivendb]()
+[!passwd]()
+[!chooose]()
 ### When SSL Mode is Not Available
 
 Some versions of Power BI do not display an SSL configuration option. In this case, a secure connection can be established using a **VPN or SSH tunnel**, allowing Power BI to connect through:
