@@ -191,7 +191,7 @@ The final data model follows a **Star Schema**.
 
 After preparing the data model, interactive dashboards were created in Power BI.
 ## KPI Product & sales performance analysis
-[!KPI]()
+[!KPI](productdashboard.png)
 
 ## Sales Performance
 
