@@ -244,8 +244,7 @@ Total Customers = DISTINCTCOUNT(customers[customer_id])
 
 Customers ranked by total sales value.
 
-📷 **Screenshot:** Customer insights dashboard.
-
+[!sutomers insights](https://github.com/Damaa-C/Building-a-Power-BI-Dashboard-Using-PostgreSQL-and-Aiven-Cloud-Data/blob/main/customer%20insights.png) 
 ---
 
 ## Inventory Insights
